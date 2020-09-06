@@ -1,0 +1,121 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [  <!ENTITY quot "&#34;">  <!ENTITY amp "&#38;">  <!ENTITY apos "&#39;">  <!ENTITY lt "&#60;">  <!ENTITY gt "&#62;">  <!ENTITY nbsp "&#160;">  <!ENTITY iexcl "&#161;">  <!ENTITY cent "&#162;">  <!ENTITY pound "&#163;">  <!ENTITY curren "&#164;">  <!ENTITY yen "&#165;">  <!ENTITY brvbar "&#166;">  <!ENTITY sect "&#167;">  <!ENTITY uml "&#168;">  <!ENTITY copy "&#169;">  <!ENTITY ordf "&#170;">  <!ENTITY laquo "&#171;">  <!ENTITY not "&#172;">  <!ENTITY shy "&#173;">  <!ENTITY reg "&#174;">  <!ENTITY macr "&#175;">  <!ENTITY deg "&#176;">  <!ENTITY plusmn "&#177;">  <!ENTITY sup2 "&#178;">  <!ENTITY sup3 "&#179;">  <!ENTITY acute "&#180;">  <!ENTITY micro "&#181;">  <!ENTITY para "&#182;">  <!ENTITY middot "&#183;">  <!ENTITY cedil "&#184;">  <!ENTITY sup1 "&#185;">  <!ENTITY ordm "&#186;">  <!ENTITY raquo "&#187;">  <!ENTITY frac14 "&#188;">  <!ENTITY frac12 "&#189;">  <!ENTITY frac34 "&#190;">  <!ENTITY iquest "&#191;">  <!ENTITY Agrave "&#192;">  <!ENTITY Aacute "&#193;">  <!ENTITY Acirc "&#194;">  <!ENTITY Atilde "&#195;">  <!ENTITY Auml "&#196;">  <!ENTITY Aring "&#197;">  <!ENTITY AElig "&#198;">  <!ENTITY Ccedil "&#199;">  <!ENTITY Egrave "&#200;">  <!ENTITY Eacute "&#201;">  <!ENTITY Ecirc "&#202;">  <!ENTITY Euml "&#203;">  <!ENTITY Igrave "&#204;">  <!ENTITY Iacute "&#205;">  <!ENTITY Icirc "&#206;">  <!ENTITY Iuml "&#207;">  <!ENTITY ETH "&#208;">  <!ENTITY Ntilde "&#209;">  <!ENTITY Ograve "&#210;">  <!ENTITY Oacute "&#211;">  <!ENTITY Ocirc "&#212;">  <!ENTITY Otilde "&#213;">  <!ENTITY Ouml "&#214;">  <!ENTITY times "&#215;">  <!ENTITY Oslash "&#216;">  <!ENTITY Ugrave "&#217;">  <!ENTITY Uacute "&#218;">  <!ENTITY Ucirc "&#219;">  <!ENTITY Uuml "&#220;">  <!ENTITY Yacute "&#221;">  <!ENTITY THORN "&#222;">  <!ENTITY szlig "&#223;">  <!ENTITY agrave "&#224;">  <!ENTITY aacute "&#225;">  <!ENTITY acirc "&#226;">  <!ENTITY atilde "&#227;">  <!ENTITY auml "&#228;">  <!ENTITY aring "&#229;">  <!ENTITY aelig "&#230;">  <!ENTITY ccedil "&#231;">  <!ENTITY egrave "&#232;">  <!ENTITY eacute "&#233;">  <!ENTITY ecirc "&#234;">  <!ENTITY euml "&#235;">  <!ENTITY igrave "&#236;">  <!ENTITY iacute "&#237;">  <!ENTITY icirc "&#238;">  <!ENTITY iuml "&#239;">  <!ENTITY eth "&#240;">  <!ENTITY ntilde "&#241;">  <!ENTITY ograve "&#242;">  <!ENTITY oacute "&#243;">  <!ENTITY ocirc "&#244;">  <!ENTITY otilde "&#245;">  <!ENTITY ouml "&#246;">  <!ENTITY divide "&#247;">  <!ENTITY oslash "&#248;">  <!ENTITY ugrave "&#249;">  <!ENTITY uacute "&#250;">  <!ENTITY ucirc "&#251;">  <!ENTITY uuml "&#252;">  <!ENTITY yacute "&#253;">  <!ENTITY thorn "&#254;">  <!ENTITY yuml "&#255;">  <!ENTITY OElig "&#338;">  <!ENTITY oelig "&#339;">  <!ENTITY Scaron "&#352;">  <!ENTITY scaron "&#353;">  <!ENTITY Yuml "&#376;">  <!ENTITY fnof "&#402;">  <!ENTITY circ "&#710;">  <!ENTITY tilde "&#732;">  <!ENTITY Alpha "&#913;">  <!ENTITY Beta "&#914;">  <!ENTITY Gamma "&#915;">  <!ENTITY Delta "&#916;">  <!ENTITY Epsilon "&#917;">  <!ENTITY Zeta "&#918;">  <!ENTITY Eta "&#919;">  <!ENTITY Theta "&#920;">  <!ENTITY Iota "&#921;">  <!ENTITY Kappa "&#922;">  <!ENTITY Lambda "&#923;">  <!ENTITY Mu "&#924;">  <!ENTITY Nu "&#925;">  <!ENTITY Xi "&#926;">  <!ENTITY Omicron "&#927;">  <!ENTITY Pi "&#928;">  <!ENTITY Rho "&#929;">  <!ENTITY Sigma "&#931;">  <!ENTITY Tau "&#932;">  <!ENTITY Upsilon "&#933;">  <!ENTITY Phi "&#934;">  <!ENTITY Chi "&#935;">  <!ENTITY Psi "&#936;">  <!ENTITY Omega "&#937;">  <!ENTITY alpha "&#945;">  <!ENTITY beta "&#946;">  <!ENTITY gamma "&#947;">  <!ENTITY delta "&#948;">  <!ENTITY epsilon "&#949;">  <!ENTITY zeta "&#950;">  <!ENTITY eta "&#951;">  <!ENTITY theta "&#952;">  <!ENTITY iota "&#953;">  <!ENTITY kappa "&#954;">  <!ENTITY lambda "&#955;">  <!ENTITY mu "&#956;">  <!ENTITY nu "&#957;">  <!ENTITY xi "&#958;">  <!ENTITY omicron "&#959;">  <!ENTITY pi "&#960;">  <!ENTITY rho "&#961;">  <!ENTITY sigmaf "&#962;">  <!ENTITY sigma "&#963;">  <!ENTITY tau "&#964;">  <!ENTITY upsilon "&#965;">  <!ENTITY phi "&#966;">  <!ENTITY chi "&#967;">  <!ENTITY psi "&#968;">  <!ENTITY omega "&#969;">  <!ENTITY thetasym "&#977;">  <!ENTITY upsih "&#978;">  <!ENTITY piv "&#982;">  <!ENTITY ensp "&#8194;">  <!ENTITY emsp "&#8195;">  <!ENTITY thinsp "&#8201;">  <!ENTITY zwnj "&#8204;">  <!ENTITY zwj "&#8205;">  <!ENTITY lrm "&#8206;">  <!ENTITY rlm "&#8207;">  <!ENTITY ndash "&#8211;">  <!ENTITY mdash "&#8212;">  <!ENTITY lsquo "&#8216;">  <!ENTITY rsquo "&#8217;">  <!ENTITY sbquo "&#8218;">  <!ENTITY ldquo "&#8220;">  <!ENTITY rdquo "&#8221;">  <!ENTITY bdquo "&#8222;">  <!ENTITY dagger "&#8224;">  <!ENTITY Dagger "&#8225;">  <!ENTITY bull "&#8226;">  <!ENTITY hellip "&#8230;">  <!ENTITY permil "&#8240;">  <!ENTITY prime "&#8242;">  <!ENTITY Prime "&#8243;">  <!ENTITY lsaquo "&#8249;">  <!ENTITY rsaquo "&#8250;">  <!ENTITY oline "&#8254;">  <!ENTITY frasl "&#8260;">  <!ENTITY euro "&#8364;">  <!ENTITY image "&#8465;">  <!ENTITY weierp "&#8472;">  <!ENTITY real "&#8476;">  <!ENTITY trade "&#8482;">  <!ENTITY alefsym "&#8501;">  <!ENTITY larr "&#8592;">  <!ENTITY uarr "&#8593;">  <!ENTITY rarr "&#8594;">  <!ENTITY darr "&#8595;">  <!ENTITY harr "&#8596;">  <!ENTITY crarr "&#8629;">  <!ENTITY lArr "&#8656;">  <!ENTITY uArr "&#8657;">  <!ENTITY rArr "&#8658;">  <!ENTITY dArr "&#8659;">  <!ENTITY hArr "&#8660;">  <!ENTITY forall "&#8704;">  <!ENTITY part "&#8706;">  <!ENTITY exist "&#8707;">  <!ENTITY empty "&#8709;">  <!ENTITY nabla "&#8711;">  <!ENTITY isin "&#8712;">  <!ENTITY notin "&#8713;">  <!ENTITY ni "&#8715;">  <!ENTITY prod "&#8719;">  <!ENTITY sum "&#8721;">  <!ENTITY minus "&#8722;">  <!ENTITY lowast "&#8727;">  <!ENTITY radic "&#8730;">  <!ENTITY prop "&#8733;">  <!ENTITY infin "&#8734;">  <!ENTITY ang "&#8736;">  <!ENTITY and "&#8743;">  <!ENTITY or "&#8744;">  <!ENTITY cap "&#8745;">  <!ENTITY cup "&#8746;">  <!ENTITY int "&#8747;">  <!ENTITY there4 "&#8756;">  <!ENTITY sim "&#8764;">  <!ENTITY cong "&#8773;">  <!ENTITY asymp "&#8776;">  <!ENTITY ne "&#8800;">  <!ENTITY equiv "&#8801;">  <!ENTITY le "&#8804;">  <!ENTITY ge "&#8805;">  <!ENTITY sub "&#8834;">  <!ENTITY sup "&#8835;">  <!ENTITY nsub "&#8836;">  <!ENTITY sube "&#8838;">  <!ENTITY supe "&#8839;">  <!ENTITY oplus "&#8853;">  <!ENTITY otimes "&#8855;">  <!ENTITY perp "&#8869;">  <!ENTITY sdot "&#8901;">  <!ENTITY lceil "&#8968;">  <!ENTITY rceil "&#8969;">  <!ENTITY lfloor "&#8970;">  <!ENTITY rfloor "&#8971;">  <!ENTITY lang "&#9001;">  <!ENTITY rang "&#9002;">  <!ENTITY loz "&#9674;">  <!ENTITY spades "&#9824;">  <!ENTITY clubs "&#9827;">  <!ENTITY hearts "&#9829;">  <!ENTITY diams "&#9830;"> ]><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="436pt" height="215pt" viewBox="0.00 0.00 435.60 215.49">
+<g id="graph0" class="graph" transform="translate(4,211.49349975585938) scale(1)" data-name="finite_state_machine">
+
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-211.4935 431.6002,-211.4935 431.6002,4 -4,4" style=""></polygon>
+<!-- n1 -->
+<g id="node1" class="node" data-name="n1">
+
+<ellipse fill="none" stroke="#000000" cx="110.241" cy="-163.6935" rx="20.8568" ry="20.8568" style=""></ellipse>
+<ellipse fill="none" stroke="#000000" cx="110.241" cy="-163.6935" rx="24.8884" ry="24.8884" style=""></ellipse>
+<text text-anchor="middle" x="110.241" y="-159.4935" font-family="Times,serif" font-size="14.00" fill="#000000" style="">n1</text>
+</g>
+<!-- n2 -->
+<g id="node6" class="node" data-name="n2">
+
+<ellipse fill="none" stroke="#000000" cx="284.2169" cy="-143.6935" rx="20.8887" ry="20.8887" style=""></ellipse>
+<text text-anchor="middle" x="284.2169" y="-139.4935" font-family="Times,serif" font-size="14.00" fill="#000000" style="">n2</text>
+</g>
+<!-- n1&#45;&gt;n2 -->
+<g id="edge3" class="edge" data-name="n1->n2">
+
+<path fill="none" stroke="#000000" d="M132.3041,-174.9624C138.7832,-177.7253 145.9962,-180.2906 152.9344,-181.6935 193.2689,-189.8486 207.4343,-197.2691 245.5234,-181.6935 252.7132,-178.7534 259.2875,-173.7617 264.8962,-168.3462" style=""></path>
+<polygon fill="#000000" stroke="#000000" points="267.6335,-170.5436 271.9132,-160.8516 262.5236,-165.7593 267.6335,-170.5436" style=""></polygon>
+<text text-anchor="start" x="195.1486" y="-194.8935" font-family="Times,serif" font-size="14.00" fill="#000000" style="">ε</text>
+</g>
+<!-- n4 -->
+<g id="node2" class="node" data-name="n4">
+
+<ellipse fill="none" stroke="#000000" cx="402.9068" cy="-24.6935" rx="20.8568" ry="20.8568" style=""></ellipse>
+<ellipse fill="none" stroke="#000000" cx="402.9068" cy="-24.6935" rx="24.8884" ry="24.8884" style=""></ellipse>
+<text text-anchor="middle" x="402.9068" y="-20.4935" font-family="Times,serif" font-size="14.00" fill="#000000" style="">n4</text>
+</g>
+<!-- n5 -->
+<g id="node7" class="node" data-name="n5">
+
+<ellipse fill="none" stroke="#000000" cx="284.2169" cy="-24.6935" rx="20.8887" ry="20.8887" style=""></ellipse>
+<text text-anchor="middle" x="284.2169" y="-20.4935" font-family="Times,serif" font-size="14.00" fill="#000000" style="">n5</text>
+</g>
+<!-- n4&#45;&gt;n5 -->
+<g id="edge7" class="edge" data-name="n4->n5">
+
+<path fill="none" stroke="#000000" d="M378.0605,-24.6935C359.8378,-24.6935 334.9668,-24.6935 315.4071,-24.6935" style=""></path>
+<polygon fill="#000000" stroke="#000000" points="315.1631,-21.1936 305.163,-24.6935 315.163,-28.1936 315.1631,-21.1936" style=""></polygon>
+<text text-anchor="start" x="337.4815" y="-28.8935" font-family="Times,serif" font-size="14.00" fill="#000000" style="">ε</text>
+</g>
+<!-- n0 -->
+<g id="node3" class="node" data-name="n0">
+
+<ellipse fill="none" stroke="#000000" cx="20.6935" cy="-53.6935" rx="20.8887" ry="20.8887" style=""></ellipse>
+<text text-anchor="middle" x="20.6935" y="-49.4935" font-family="Times,serif" font-size="14.00" fill="#000000" style="">n0</text>
+</g>
+<!-- n3 -->
+<g id="node4" class="node" data-name="n3">
+
+<ellipse fill="none" stroke="#000000" cx="110.241" cy="-83.6935" rx="20.8887" ry="20.8887" style=""></ellipse>
+<text text-anchor="middle" x="110.241" y="-79.4935" font-family="Times,serif" font-size="14.00" fill="#000000" style="">n3</text>
+</g>
+<!-- n0&#45;&gt;n3 -->
+<g id="edge1" class="edge" data-name="n0->n3">
+
+<path fill="none" stroke="#000000" d="M40.5669,-60.3514C52.3922,-64.3131 67.6153,-69.4131 80.8141,-73.8349" style=""></path>
+<polygon fill="#000000" stroke="#000000" points="79.8291,-77.1961 90.423,-77.0541 82.0528,-70.5587 79.8291,-77.1961" style=""></polygon>
+<text text-anchor="start" x="59.3869" y="-72.8935" font-family="Times,serif" font-size="14.00" fill="#000000" style="">ε</text>
+</g>
+<!-- n6 -->
+<g id="node5" class="node" data-name="n6">
+
+<ellipse fill="none" stroke="#000000" cx="110.241" cy="-24.6935" rx="20.8887" ry="20.8887" style=""></ellipse>
+<text text-anchor="middle" x="110.241" y="-20.4935" font-family="Times,serif" font-size="14.00" fill="#000000" style="">n6</text>
+</g>
+<!-- n0&#45;&gt;n6 -->
+<g id="edge2" class="edge" data-name="n0->n6">
+
+<path fill="none" stroke="#000000" d="M40.3096,-46.4738C46.4003,-44.2924 53.1513,-41.9358 59.3869,-39.8935 66.0942,-37.6966 73.3403,-35.4537 80.2023,-33.3889" style=""></path>
+<polygon fill="#000000" stroke="#000000" points="81.2835,-36.719 89.8736,-30.5173 79.291,-30.0085 81.2835,-36.719" style=""></polygon>
+<text text-anchor="start" x="59.3869" y="-44.8935" font-family="Times,serif" font-size="14.00" fill="#000000" style="">ε</text>
+</g>
+<!-- n3&#45;&gt;n2 -->
+<g id="edge6" class="edge" data-name="n3->n2">
+
+<path fill="none" stroke="#000000" d="M130.8561,-81.289C158.6236,-79.0263 208.7911,-78.4448 245.5234,-97.8935 254.1707,-102.472 261.6846,-109.8632 267.7315,-117.3842" style=""></path>
+<polygon fill="#000000" stroke="#000000" points="264.9457,-119.5038 273.7014,-125.4694 270.577,-115.3457 264.9457,-119.5038" style=""></polygon>
+<text text-anchor="middle" x="199.2289" y="-102.8935" font-family="Times,serif" font-size="14.00" fill="#000000" style="">'A'-'Z' + 'a'-'z'</text>
+</g>
+<!-- n6&#45;&gt;n5 -->
+<g id="edge10" class="edge" data-name="n6->n5">
+
+<path fill="none" stroke="#000000" d="M131.2265,-24.6935C161.6125,-24.6935 218.0642,-24.6935 253.2448,-24.6935" style=""></path>
+<polygon fill="#000000" stroke="#000000" points="253.4277,-28.1936 263.4277,-24.6935 253.4277,-21.1936 253.4277,-28.1936" style=""></polygon>
+<text text-anchor="middle" x="199.2289" y="-28.8935" font-family="Times,serif" font-size="14.00" fill="#000000" style="">'0'-'9'</text>
+</g>
+<!-- n2&#45;&gt;n1 -->
+<g id="edge4" class="edge" data-name="n2->n1">
+
+<path fill="none" stroke="#000000" d="M263.5871,-146.065C234.3966,-149.4207 180.65,-155.5993 145.1742,-159.6776" style=""></path>
+<polygon fill="#000000" stroke="#000000" points="144.3333,-156.2511 134.7985,-160.8704 145.1328,-163.2053 144.3333,-156.2511" style=""></polygon>
+<text text-anchor="middle" x="199.2289" y="-161.8935" font-family="Times,serif" font-size="14.00" fill="#000000" style="">'A'-'Z' + 'a'-'z'</text>
+</g>
+<!-- n2&#45;&gt;n1 -->
+<g id="edge5" class="edge" data-name="n2->n1">
+
+<path fill="none" stroke="#000000" d="M265.833,-133.8847C259.5692,-131.0433 252.407,-128.3233 245.5234,-126.8935 205.2328,-118.5241 191.5092,-112.5629 152.9344,-126.8935 146.2783,-129.3662 139.9654,-133.3938 134.3359,-137.8961" style=""></path>
+<polygon fill="#000000" stroke="#000000" points="131.7999,-135.4659 126.6167,-144.7063 136.431,-140.7151 131.7999,-135.4659" style=""></polygon>
+<text text-anchor="start" x="195.1486" y="-130.8935" font-family="Times,serif" font-size="14.00" fill="#000000" style="">ε</text>
+</g>
+<!-- n5&#45;&gt;n4 -->
+<g id="edge8" class="edge" data-name="n5->n4">
+
+<path fill="none" stroke="#000000" d="M301.5713,-13.0096C307.9924,-9.3365 315.5144,-5.7553 322.9103,-3.8935 338.9878,.154 344.0583,-.1675 360.2133,-3.8935 364.1676,-4.8055 368.1794,-6.1356 372.0806,-7.6895" style=""></path>
+<polygon fill="#000000" stroke="#000000" points="370.8982,-10.9952 381.4541,-11.9019 373.7675,-4.6103 370.8982,-10.9952" style=""></polygon>
+<text text-anchor="middle" x="341.5618" y="-8.8935" font-family="Times,serif" font-size="14.00" fill="#000000" style="">'0'-'9'</text>
+</g>
+<!-- n5&#45;&gt;n4 -->
+<g id="edge9" class="edge" data-name="n5->n4">
+
+<path fill="none" stroke="#000000" d="M302.5292,-35.1978C308.7882,-38.2419 315.9657,-41.1572 322.9103,-42.6935 339.0981,-46.2744 343.963,-45.9791 360.2133,-42.6935 363.8993,-41.9482 367.6627,-40.8749 371.3525,-39.6181" style=""></path>
+<polygon fill="#000000" stroke="#000000" points="372.7699,-42.8229 380.8436,-35.9624 370.2539,-36.2907 372.7699,-42.8229" style=""></polygon>
+<text text-anchor="start" x="337.4815" y="-49.8935" font-family="Times,serif" font-size="14.00" fill="#000000" style="">ε</text>
+</g>
+</g>
+</svg>
