@@ -9,8 +9,9 @@ import { FA } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/
 import { Builder } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.0.1/la/nfa.ts";
 import { Definition } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.0.1/la/definition.ts";
 import { fromNFA } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.0.1/la/dfa.ts";
-import * as Set from "https://raw.githubusercontent.com/littlelanguages/deno-lib-data-set/0.0.1/mod.ts";
+
 import * as PP from "https://raw.githubusercontent.com/littlelanguages/deno-lib-text-prettyprint/0.1.0/mod.ts";
+import * as Set from "https://raw.githubusercontent.com/littlelanguages/deno-lib-data-set/0.0.1/mod.ts";
 
 export function vizCommand(
   fileName: string,
