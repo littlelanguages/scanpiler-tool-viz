@@ -2,9 +2,11 @@
 
 This project creates the tool that allows a `scanpiler` scanner definition file to be loaded and then translated into an NFA and then into a DFA.  Both of the NFA and DFA automatons are then written out as [Graphviz](https://graphviz.org) dot files.
 
+The following examples are outputs produced using this library.
+
 ## Simple Scanner Definition
 
-The following file shows off a scanner definition that tokenizes identifiers and literal positive integers.
+The following file show off a scanner definition that tokenizes identifiers and literal positive integers.
 
 ```
 tokens 
@@ -17,10 +19,10 @@ fragments
 ```
 
 ### NFA (Nondeterministic Finite Automata)
-![simple NFA](./.doc/simple-nfa.svg)
+![Simple NFA](./.doc/simple-nfa.svg)
 
 ### DFA (Deterministic Finite Automata)
-![simple NFA](./.doc/simple-dfa.svg)
+![Simple DFA](./.doc/simple-dfa.svg)
 
 
 ## `scanpiler` Scanner Definition
@@ -71,7 +73,13 @@ fragments
 ```
 
 ### NFA (Nondeterministic Finite Automata)
-![simple NFA](./.doc/scanpiler-nfa.svg)
+![scanpiler NFA](./.doc/scanpiler-nfa.svg)
 
 ### DFA (Deterministic Finite Automata)
-![simple NFA](./.doc/scanpiler-dfa.svg)
+![scanpiler DFA](./.doc/scanpiler-dfa.svg)
+
+## See Also
+
+It is tedious to have to write code to use this library.  A far simpler method is to use the [scanpiler-cli](https://github.com/littlelanguages/scanpiler-cli)
+
+[![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/raw.githubusercontent.com/littlelanguages/deno-ltool-viz/main/mod.ts)
