@@ -82,4 +82,4 @@ fragments
 
 It is tedious to have to write code to use this library.  A far simpler method is to use the [scanpiler-cli](https://github.com/littlelanguages/scanpiler-cli)
 
-[![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/raw.githubusercontent.com/littlelanguages/deno-ltool-viz/main/mod.ts)
+[![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/raw.githubusercontent.com/littlelanguages/scanpiler-tool-viz/main/mod.ts)
