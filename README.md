@@ -16,4 +16,62 @@ fragments
   digit = '0'-'9';
 ```
 
-![bob](./.doc/simple-nfa.svg)<img src="./.doc/simple-nfa.svg">
+### NFA (Nondeterministic Finite Automata)
+![simple NFA](./.doc/simple-nfa.svg)
+
+### DFA (Deterministic Finite Automata)
+![simple NFA](./.doc/simple-dfa.svg)
+
+
+## `scanpiler` Scanner Definition
+
+The following file is the scanner definition of `scanpilers` input language
+
+```
+tokens
+    Chr = "chr";
+    Comments = "comments";
+    Extend = "extend";
+    Fragments = "fragments";
+    Nested = "nested";
+    To = "to";
+    Tokens = "tokens";
+    Whitespace = "whitespace";
+    
+    Backslash = "\";
+    Bang = "!";
+    Bar = "|";
+    Equal = "=";
+    LBracket = "[";
+    LCurly = "{";
+    LParen = "(";
+    Minus = "-";
+    Plus = "+";
+    RBracket = "]";
+    RCurly = "}";
+    RParen = ")";
+    Semicolon = ";";
+
+    Identifier = alpha {alpha | digit};
+    LiteralCharacter = chr(39) !chr(39) chr(39);
+    LiteralInt = digit {digit};
+    LiteralString = '"' {!'"'} '"';
+
+comments
+    "/*" to "*/" nested;
+    "//" {!cr};
+
+whitespace
+    chr(0)-' ';
+
+fragments
+    digit = '0'-'9';
+    alpha = 'a'-'z' + 'A'-'Z';
+    cr = chr(10);
+```
+
+### NFA (Nondeterministic Finite Automata)
+![simple NFA](./.doc/scanpiler-nfa.svg)
+
+### DFA (Deterministic Finite Automata)
+![simple NFA](./.doc/scanpiler-dfa.svg)
