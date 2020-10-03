@@ -2,17 +2,17 @@ import {
   format,
   parse,
   ParsedPath,
-} from "https://deno.land/std@0.63.0/path/mod.ts";
+} from "https://deno.land/std@0.71.0/path/mod.ts";
 
-import { translate } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.1.0/parser/dynamic.ts";
-import * as Errors from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.1.0/parser/errors.ts";
-import { FA } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.1.0/la/fa.ts";
-import { Builder } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.1.0/la/nfa.ts";
-import { Definition } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.1.0/la/definition.ts";
-import { fromNFA } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.1.0/la/dfa.ts";
+import { translate } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.2.2/parser/dynamic.ts";
+import * as Errors from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.2.2/parser/errors.ts";
+import { FA } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.2.2/la/fa.ts";
+import { Builder } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.2.2/la/nfa.ts";
+import { Definition } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.2.2/la/definition.ts";
+import { fromNFA } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.2.2/la/dfa.ts";
 
-import * as PP from "https://raw.githubusercontent.com/littlelanguages/deno-lib-text-prettyprint/0.3.0/mod.ts";
-import * as Set from "https://raw.githubusercontent.com/littlelanguages/deno-lib-data-set/0.0.1/mod.ts";
+import * as PP from "https://raw.githubusercontent.com/littlelanguages/deno-lib-text-prettyprint/0.3.1/mod.ts";
+import * as Set from "https://raw.githubusercontent.com/littlelanguages/deno-lib-data-set/0.1.0/mod.ts";
 
 export function vizCommand(
   fileName: string,
