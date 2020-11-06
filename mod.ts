@@ -2,17 +2,19 @@ import {
   format,
   parse,
   ParsedPath,
-} from "https://deno.land/std@0.71.0/path/mod.ts";
+} from "https://deno.land/std@0.76.0/path/mod.ts";
 
-import { translate } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.2.2/parser/dynamic.ts";
-import * as Errors from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.2.2/parser/errors.ts";
-import { FA } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.2.2/la/fa.ts";
-import { Builder } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.2.2/la/nfa.ts";
-import { Definition } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.2.2/la/definition.ts";
-import { fromNFA } from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.2.2/la/dfa.ts";
+import {
+  asDoc,
+  Builder,
+  Definition,
+  FA,
+  fromNFA,
+  translate,
+} from "https://raw.githubusercontent.com/littlelanguages/scanpiler/0.3.0/mod.ts";
 
-import * as PP from "https://raw.githubusercontent.com/littlelanguages/deno-lib-text-prettyprint/0.3.1/mod.ts";
-import * as Set from "https://raw.githubusercontent.com/littlelanguages/deno-lib-data-set/0.1.0/mod.ts";
+import * as PP from "https://raw.githubusercontent.com/littlelanguages/deno-lib-text-prettyprint/0.3.2/mod.ts";
+import * as Set from "https://raw.githubusercontent.com/littlelanguages/deno-lib-data-set/0.1.1/mod.ts";
 
 export function vizCommand(
   fileName: string,
@@ -20,7 +22,7 @@ export function vizCommand(
 ) {
   const path = parse(fileName);
 
-  if (path.ext == undefined) {
+  if (path.ext === undefined) {
     path.ext = ".ll";
   }
 
@@ -31,7 +33,7 @@ export function vizCommand(
   parseResult.either((es) =>
     PP.render(
       PP.vcat(
-        es.map((e) => PP.hcat(["Error: ", Errors.asDoc(e)])).concat(PP.blank),
+        es.map((e) => PP.hcat(["Error: ", asDoc(e)])).concat(PP.blank),
       ),
       Deno.stdout,
     ), (fa) =>
@@ -114,7 +116,7 @@ export function writeOutFA(
 }
 
 function writeCh(ch: number): string {
-  if (ch < 32 || ch > 127 || ch == 34 || ch == 39) {
+  if (ch < 32 || ch > 127 || ch === 34 || ch === 39) {
     return `chr(${ch})`;
   } else {
     return `'${String.fromCharCode(ch)}'`;
